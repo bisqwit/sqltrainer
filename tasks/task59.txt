@@ -23,3 +23,20 @@ INSERT INTO Sanat (sana) VALUES ('oppilas');
 RESULT
 apina
 oppia
+
+TEST
+INSERT INTO Sanat (sana) VALUES ('paino');
+INSERT INTO Sanat (sana) VALUES ('upeus');
+INSERT INTO Sanat (sana) VALUES ('pappi');
+
+RESULT
+upeus
+
+TEST
+INSERT INTO Sanat (sana) VALUES ('opus');
+INSERT INTO Sanat (sana) VALUES ('upota');
+INSERT INTO Sanat (sana) VALUES ('sapluuna');
+INSERT INTO Sanat (sana) VALUES ('opisto');
+
+RESULT
+upota
